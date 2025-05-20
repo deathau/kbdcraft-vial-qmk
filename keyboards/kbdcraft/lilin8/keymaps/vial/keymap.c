@@ -1,0 +1,26 @@
+#include QMK_KEYBOARD_H
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  [0] = LAYOUT(
+  KC_KP_ASTERISK, KC_KP_MINUS,
+  KC_P9,
+  KC_P6, KC_KP_PLUS,
+  KC_P3,
+  KC_KP_DOT, KC_KP_ENTER
+  ),
+  [1] = LAYOUT(
+  RGB_RMOD, RGB_VAD,
+  KC_PGUP,
+  KC_RIGHT, RGB_VAI,
+  KC_PGDN,
+  KC_DELETE, RGB_TOG
+  ),
+  [2] = LAYOUT(
+  KC_NO, KC_NO,
+  KC_NO,
+  KC_NO, KC_NO,
+  KC_NO,
+  KC_NO, KC_NO
+  )
+};
+

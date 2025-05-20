@@ -1,0 +1,19 @@
+{
+  "name": "Lilin8",
+  "vendorId": "0x586A",
+  "productId": "0x1208",
+  "lighting": "vialrgb",
+  "matrix": {
+    "rows": 5,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      [ "0,0", "0,1" ],
+      [ "1,0", { "h": 2 }, "2,1" ],
+      [ "2,0" ],
+      [ "3,0", { "h": 2 }, "4,1" ],
+      [ "4,0" ]
+    ]
+  }
+}
