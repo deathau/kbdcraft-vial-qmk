@@ -17,8 +17,10 @@ For example, a standard #18 Lilin with included dummy board has 17 keys (as many
 Alternately, the original #2 Lilin board by itself has 64 keys, so that becomes `0x0240`.
 
 ## Included Firmwares
-- `kbdcraft_lilin8_vial.uf2` (`0x1208`) — #18 Lilin (type-3) with no attachments
-- `kbdcraft_lilin17_vial.uf2` (`0x1211`) — #18 Lilin (type-3) attached to dummy module (dummy-1)
+- `kbdcraft_lilin8_vial.uf2` (`0x1208`) — #18 Lilin (type-3) with no attachments  
+![image of Lilin type-3 PCB](res/lilin8.png)
+- `kbdcraft_lilin17_vial.uf2` (`0x1211`) — #18 Lilin (type-3) attached to dummy module (dummy-1)  
+![image of Lilin type-3 PCB and attached dummy-1 PCB](res/lilin17.png)
 
 ## Flashing Instructions:
 - Unplug the keyboard
@@ -29,7 +31,8 @@ Alternately, the original #2 Lilin board by itself has 64 keys, so that becomes 
 
 ### Troubleshooting
 If the external drive refuses to appear on the computer try the following:
-- Attempt to locate the reset pins on the bottom of the PCB
+- Attempt to locate the reset pins on the bottom of the PCB  
+![an image showing an example of the reset pins on a PCB surrounded by a red box](res/resetpins.png)
 - While plugged into the computer, use some sort of conductive bridge (for example a pair of metal tweezers) to connect the two pins
 - An external drive named "Addams0110" should appear on the computer, continue with the steps above
 
